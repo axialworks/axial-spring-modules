@@ -1,4 +1,4 @@
-package com.axial.modules.commons.message.config;
+package com.axial.modules.commons.core.message.config;
 
 import com.axial.modules.commons.constants.CommonConstants;
 import com.axial.modules.commons.constants.CommonLangConstants;

@@ -1,4 +1,4 @@
-package com.axial.modules.commons.message.constants;
+package com.axial.modules.commons.core.message.constants;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
