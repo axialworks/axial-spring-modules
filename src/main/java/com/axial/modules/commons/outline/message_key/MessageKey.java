@@ -1,4 +1,4 @@
-package com.axial.modules.commons.core.message.definition;
+package com.axial.modules.commons.outline.message_key;
 
 public interface MessageKey {
 

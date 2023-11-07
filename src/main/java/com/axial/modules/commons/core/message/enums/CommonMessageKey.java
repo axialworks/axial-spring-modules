@@ -1,7 +1,7 @@
 package com.axial.modules.commons.core.message.enums;
 
 import com.axial.modules.commons.core.message.CommonMessageUtils;
-import com.axial.modules.commons.core.message.definition.MessageKey;
+import com.axial.modules.commons.outline.message_key.MessageKey;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
