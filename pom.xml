@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.axial</groupId>
-        <artifactId>axial-spring-boot-parent</artifactId>
+        <groupId>com.axial.spring</groupId>
+        <artifactId>parent</artifactId>
         <version>1.0</version>
         <relativePath>../parent-pom/pom.xml</relativePath>
     </parent>
 
-    <groupId>com.axial.modules.spring</groupId>
+    <groupId>com.axial.spring.modules</groupId>
     <artifactId>commons</artifactId>
     <version>1.0</version>
 
