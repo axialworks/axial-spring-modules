@@ -6,18 +6,18 @@
 
     <parent>
         <groupId>com.axial.spring</groupId>
-        <artifactId>parent</artifactId>
+        <artifactId>spring-boot-parent</artifactId>
         <version>1.0</version>
-        <relativePath>../parent-pom/pom.xml</relativePath>
+        <relativePath>../spring-boot-parent/pom.xml</relativePath>
     </parent>
 
     <groupId>com.axial.spring.modules</groupId>
-    <artifactId>commons</artifactId>
+    <artifactId>spring-boot-commons</artifactId>
     <version>1.0</version>
 
     <packaging>jar</packaging>
 
-    <name>commons</name>
+    <name>spring-boot-commons</name>
     <description>Axial commons</description>
     <url>https://github.com/sky3s/</url>
 
