@@ -25,7 +25,7 @@ public class MessageWebConfig implements WebMvcConfigurer {
 
 
     @Bean("commonMessages")
-    MessageSource baseMessageSource() {
+    MessageSource commonMessageSource() {
 
         final ReloadableResourceBundleMessageSource bean = new ReloadableResourceBundleMessageSource();
         bean.setBasename("classpath:CommonMessages");
