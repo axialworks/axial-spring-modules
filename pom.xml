@@ -6,28 +6,29 @@
 
     <parent>
         <groupId>com.axial.spring</groupId>
-        <artifactId>spring-boot-parent</artifactId>
+        <artifactId>axial-spring-boot-parent</artifactId>
         <version>1.0</version>
-        <relativePath>../spring-boot-parent/pom.xml</relativePath>
+        <relativePath>../axial-spring-boot-parent/pom.xml</relativePath>
     </parent>
 
-    <groupId>com.axial.spring.modules.common</groupId>
-    <artifactId>spring-boot-commons</artifactId>
+    <groupId>com.axial.spring.modules</groupId>
+    <artifactId>axial-spring-modules</artifactId>
     <version>1.0</version>
 
     <packaging>pom</packaging>
 
-    <name>spring-boot-commons</name>
-    <description>Axial commons</description>
-    <url>https://github.com/sky3s/</url>
+    <name>spring-boot-modules</name>
+    <description>axial-spring-modules</description>
 
     <properties>
 
     </properties>
 
     <modules>
-        <module>spring-boot-common-utils</module>
-        <module>spring-boot-common-cache</module>
+        <module>axial-spring-module-batch</module>
+        <module>axial-spring-module-cache</module>
+        <module>axial-spring-module-openapi</module>
+        <module>axial-spring-module-utils</module>
     </modules>
 
 </project>

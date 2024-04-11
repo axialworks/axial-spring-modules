@@ -1,0 +1,60 @@
+api-config:
+  name: Demo Application Backend APIs
+  version: @project.version@
+  domains:
+    - /demo-backend
+    - /demo/arch
+    - http://localhost:8077/test-api/
+  custom-paths:
+    - /app/**
+  common-security-headers:
+    TOKEN:
+      key: TokenAuth
+      name: X-Token
+      description: Please enter your token
+  common-headers:
+    DEMO_COMM_HEADER:
+      name: X-CommonDemoHeader
+      required: false
+      default-value: demo
+      example: demoBigDemo
+      description: Demo Big demo
+  apis:
+    APP_API:
+      name: AppAPI
+      group-name: App API
+      description: Demo Backend App Services
+      path: /app/**
+      headers:
+        IDENTITY_NUMBER:
+          name: X-IdentityNumber
+          required: true
+          example: 12345678901
+          description: Unique identity number of user logged in
+    MANAGEMENT_API:
+      name: ManagementAPI
+      group-name: Management API
+      description: Demo Backend Management Services
+      path: /management/**
+      security-headers:
+        DEMO_USERNAME:
+          key: Username
+          name: X-Username
+          description: Username of user
+      headers:
+        DEMO_HEADER:
+          name: X-DemoHeader
+          required: false
+          example: 12345678901
+          description: Unique identity number of user logged in
+
+springdoc:
+  group-configs:
+    - group: AppAPI
+      display-name: App API
+      paths-to-match:
+        - /app/**
+    - group: ManagementAPI
+      display-name: Management API
+      paths-to-match:
+        - /management/**
